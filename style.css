@@ -1,8 +1,78 @@
 .container {
     text-align: center;
     padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-img {
-   width: 50%;
+.container h1{
+    margin: 0;
+}
+
+.container p{
+    padding-bottom: 30px;
+}
+
+#containerSugerencias{
+    padding-top: 5%;
+}
+
+#containerSugerencias form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#containerSugerencias #containerReseña{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#containerSugerencias div textarea {
+    resize: none;
+    height: 100px;
+    width: 300px;
+}
+
+#Sugerencias{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    text-align: center;
+}
+
+#containerDatos{
+    padding-top: 30px;
+    display: none;
+}
+
+#noSirve{
+    display: none;
+}
+ 
+#botonDia{
+    width: 35px
+}
+
+#inputNombre, #inputApellido{
+    width: 80px;
+}
+
+#inputCorreo{
+    width: 170px;
+}
+
+#inputTelefono{
+    width: 170px;
+}
+
+#inputHora{
+    width: 60px;
+}
+
+#divDatos{
+    padding: 5px;
 }

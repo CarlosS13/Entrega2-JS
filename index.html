@@ -7,18 +7,109 @@
     <title>Agenda</title>
 </head>
 <body>
+  <a href="pages/sugerencias.html">Sugerencias</a>
   <!-- Esta entrega esta enfocada en aprender a programar una agenda de turnos y en un futuro tambien un sistema de reseñas, ya que mi sitio web realizado en desarrollo web, requiere de esas funciones.
    No quise incluir este codigo, en lo ya realizado en desarrollo web, para seguir el consejo del profe, que recomendaba empezar de a poco y esta vez hacerlo por separado para no mezclarse. -->
   <div class="container">
-    <h1>Agenda de turnos</h1>
-    <button id="agregarTurno">Nuevo turno</button>
-    <button id="verTurnos">Ver turnos</button>
-    <button id="eliminarTurno">Cancelar turno</button>
-    
+    <h1>Agenda de turnos Marzo</h1>
+    <p>Selecciona el dia donde vas agendar tu turno:</p>
     <div>
-     <img src="https://wallpapers-clan.com/wp-content/uploads/2024/03/hamster-with-big-eyes-meme-desktop-wallpaper-preview.jpg" alt="">
+    <table>
+      <thead>
+        <tr>
+          <th>DOM.</th>
+          <th>LUN.</th>
+          <th>MAR.</th>
+          <th>MIÉ.</th>
+          <th>JUE.</th>
+          <th>VIE.</th>
+          <th>SÁB.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="botonDia"><span>1</span></button></td>
+          <td><button id="botonDia"><span>2</span></button></td>
+        </tr>
+        <tr>
+          <td><button id="botonDia"><span>3</span></button></td>
+          <td><button id="botonDia"><span>4</span></button></td>
+          <td><button id="botonDia"><span>5</span></button></td>
+          <td><button id="botonDia"><span>6</span></button></td>
+          <td><button id="botonDia"><span>7</span></button></td>
+          <td><button id="botonDia"><span>8</span></button></td>
+          <td><button id="botonDia"><span>9</span></button></td>
+        </tr>
+        <tr>
+          <td><button id="botonDia"><span>10</span></button></td>
+          <td><button id="botonDia"><span>11</span></button></td>
+          <td><button id="botonDia"><span>12</span></button></td>
+          <td><button id="botonDia"><span>13</span></button></td>
+          <td><button id="botonDia"><span>14</span></button></td>
+          <td><button id="botonDia"><span>15</span></button></td>
+          <td><button id="botonDia"><span>16</span></button></td>
+        </tr>
+        <tr>
+          <td><button id="botonDia"><span>17</span></button></td>
+          <td><button id="botonDia"><span>18</span></button></td>
+          <td><button id="botonDia"><span>19</span></button></td>
+          <td><button id="botonDia"><span>20</span></button></td>
+          <td><button id="botonDia"><span>21</span></button></td>
+          <td><button id="botonDia"><span>22</span></button></td>
+          <td><button id="botonDia"><span>23</span></button></td>
+        </tr>
+        <tr>
+          <td><button id="botonDia"><span>24</span></button></td>
+          <td><button id="botonDia"><span>25</span></button></td>
+          <td><button id="botonDia"><span>26</span></button></td>
+          <td><button id="botonDia"><span>27</span></button></td>
+          <td><button id="botonDia"><span>28</span></button></td>
+          <td><button id="botonDia"><span>29</span></button></td>
+          <td><button id="botonDia"><span>30</span></button></td>
+        </tr>
+        <tr>
+          <td><button id="botonDia"><span>31</span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+          <td><button id="noSirve"><span></span></button></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <div id="containerDatos">
+      <form action="">
+        <div id="divDatos">
+          <label for="">Nombre:</label>
+          <input id="inputNombre" type="text"> 
+          <label for="">Apellido:</label>
+          <input id="inputApellido" type="text">
+        </div>
+        <div id="divDatos">
+          <label for="">Correo electronico:</label>
+          <input id="inputCorreo" type="text">
+        </div>
+        <div id="divDatos">
+          <label for="">Numero de telefono:</label>
+          <input id="inputTelefono" type="text">
+        </div>
+        <div id="divDatos">
+          <label for="">Hora:</label>
+          <input id="inputHora" type="text">
+        </div>
+        <div id="divDatos">
+          <button id="botonEnviar">Enviar</button>
+        </div>
+      </form>
     </div>
   </div>
-  <script src="javascript.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

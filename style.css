@@ -76,3 +76,28 @@
 #divDatos{
     padding: 5px;
 }
+
+#confirmacion{
+    position: fixed;
+    top: 5%;
+    left: 80%;
+    background-color: forestgreen;
+    width: 230px;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    display: none;
+}
+
+#confirmacion h2{
+    margin: 0;
+}
+
+#confirmacion p{
+    margin: 0;
+    padding-bottom: 0;
+}
+
+#confirmacion.activo{
+    display: block;
+}
